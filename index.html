@@ -6,6 +6,7 @@
 <body>
 <script>
 var music = new Audio('Sarkilar/WeWontCooperate/WeWontCooperate.mp3');
+var music2 = new Audio('Sarkilar/HuggyWuggyFnfSong/Huggy Wuggy Fnf Song.mp3');
 
 function WeWontCooperate(){
   music.play();
@@ -14,14 +15,26 @@ function WeWontCooperate(){
 function WeWontCooperatePause(){
   music.pause();
   }
+
+
+function HuggyWuggy(){
+  music2.play();
+  }
+
+function HuggyWuggyPause(){
+  music2.pause();
+  }
 </script>
 
 <title>Song Stars | Brawl Stars ve bazı oyunlar için şarkı...</title>
-<link rel="shortcut icon" href="https://raw.githubusercontent.com/SongStarss/SongStarss.github.io/main/SongStarsIcon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="SongStarsIcon.png" type="image/x-icon" />
 
 <button onclick="WeWontCooperate()"; style="background:transparent url(Sarkilar/WeWontCooperate/icon.png) no-repeat left top; width:176px; height:176px;"></button>
 <br>
 <button onclick="WeWontCooperatePause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
 
+<button onclick="HuggyWuggy()"; style="background:transparent url(Sarkilar/HuggyWuggyFnfSong/icon.png) no-repeat left top; width:176px; height:176px;"></button>
+<br>
+<button onclick="HuggyWuggyPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
 </body>
 </html>
