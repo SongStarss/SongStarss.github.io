@@ -2,6 +2,6 @@ body {
 background-color: #0F0F0F
 }
 
-button {
-float: left
+.block {
+display: inline-flex;
 }
