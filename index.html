@@ -19,6 +19,8 @@ var music2 = new Audio('Sarkilar/HuggyWuggyFnfSong/HuggyWuggyFNFSong.mp3');
 var music3 = new Audio('Sarkilar/LazRap/LazRap.mp3');
 var music4 = new Audio('Sarkilar/Champions/Champions.mp3');
 var music5 = new Audio('Sarkilar/BrawlStyle/BrawlStyle.mp3');
+var music6 = new Audio('Sarkilar/ImpostersAroundUs/AroundUs.mp3');
+var music7 = new Audio('Sarkilar/ForYou/ForYou.mp3');
 
 function WeWontCooperate(){
   music.play();
@@ -60,6 +62,22 @@ function BrawlStyle(){
 function BrawlStylePause(){
   music5.pause();
   }
+
+function AroundUs(){
+  music6.play();
+  }
+
+function AroundUsPause(){
+  music6.pause();
+  }
+
+function ForYou(){
+  music7.play();
+  }
+
+function ForYouPause(){
+  music7.pause();
+  }
 </script>
 
 <div class="block">
@@ -90,6 +108,21 @@ function BrawlStylePause(){
 <button onclick="BrawlStyle()"; style="background:transparent url(Sarkilar/BrawlStyle/icon.png) no-repeat left top; width:176px; height:176px;"></button>
 <br>
 <button onclick="BrawlStylePause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+</div>
+
+<br>
+<br>
+
+<div class="block">
+<button onclick="AroundUs()"; style="background:transparent url(Sarkilar/ImpostersAroundUs/icon.png) no-repeat left top; width:176px; height:176px;"></button>
+<br>
+<button onclick="AroundUsPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+</div>
+
+<div class="block">
+<button onclick="ForYou()"; style="background:transparent url(Sarkilar/ForYou/icon.png) no-repeat left top; width:176px; height:176px;"></button>
+<br>
+<button onclick="ForYouPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
 
 </body>
