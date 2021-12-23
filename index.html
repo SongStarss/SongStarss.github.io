@@ -24,6 +24,12 @@ var music7 = new Audio('Sarkilar/ForYou/ForYou.mp3');
 
 function WeWontCooperate(){
   music.play();
+  music2.pause();
+  music3.pause();
+  music4.pause();
+  music5.pause();
+  music6.pause();
+  music7.pause();
   }
 
 function WeWontCooperatePause(){
@@ -33,6 +39,12 @@ function WeWontCooperatePause(){
 
 function HuggyWuggy(){
   music2.play();
+  music.pause();
+  music3.pause();
+  music4.pause();
+  music5.pause();
+  music6.pause();
+  music7.pause();
   }
 
 function HuggyWuggyPause(){
@@ -41,6 +53,12 @@ function HuggyWuggyPause(){
 
 function LazRap(){
   music3.play();
+  music.pause();
+  music2.pause();
+  music4.pause();
+  music5.pause();
+  music6.pause();
+  music7.pause();
   }
 
 function LazRapPause(){
@@ -49,6 +67,12 @@ function LazRapPause(){
 
 function Champions(){
   music4.play();
+  music.pause();
+  music2.pause();
+  music3.pause();
+  music5.pause();
+  music6.pause();
+  music7.pause();
   }
 
 function ChampionsPause(){
@@ -57,6 +81,12 @@ function ChampionsPause(){
 
 function BrawlStyle(){
   music5.play();
+  music.pause();
+  music3.pause();
+  music4.pause();
+  music2.pause();
+  music6.pause();
+  music7.pause();
   }
 
 function BrawlStylePause(){
@@ -65,6 +95,12 @@ function BrawlStylePause(){
 
 function AroundUs(){
   music6.play();
+  music.pause();
+  music3.pause();
+  music4.pause();
+  music5.pause();
+  music2.pause();
+  music7.pause();
   }
 
 function AroundUsPause(){
@@ -72,6 +108,12 @@ function AroundUsPause(){
   }
 
 function ForYou(){
+  music.pause();
+  music3.pause();
+  music4.pause();
+  music5.pause();
+  music6.pause();
+  music2.pause();
   music7.play();
   }
 
@@ -84,45 +126,62 @@ function ForYouPause(){
 <button onclick="WeWontCooperate()"; style="background:transparent url(Sarkilar/WeWontCooperate/icon.png) no-repeat left top; width:176px; height:176px;"></button>
 <br>
 <button onclick="WeWontCooperatePause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
 
 <div class="block">
 <button onclick="HuggyWuggy()"; style="background:transparent url(Sarkilar/HuggyWuggyFnfSong/icon.png) no-repeat left top; width:176px; height:176px;"></button>
 <br>
 <button onclick="HuggyWuggyPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music2.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
 
 <div class="block">
 <button onclick="LazRap()"; style="background:transparent url(Sarkilar/LazRap/icon.png) no-repeat left top; width:176px; height:176px;"></button>
 <br>
 <button onclick="LazRapPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music3.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
+
+<br>
+<br>
 
 <div class="block">
 <button onclick="Champions()"; style="background:transparent url(Sarkilar/Champions/icon.png) no-repeat left top; width:176px; height:176px;"></button>
 <br>
 <button onclick="ChampionsPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music4.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
 
 <div class="block">
 <button onclick="BrawlStyle()"; style="background:transparent url(Sarkilar/BrawlStyle/icon.png) no-repeat left top; width:176px; height:176px;"></button>
 <br>
 <button onclick="BrawlStylePause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music5.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
-
-<br>
-<br>
 
 <div class="block">
 <button onclick="AroundUs()"; style="background:transparent url(Sarkilar/ImpostersAroundUs/icon.png) no-repeat left top; width:176px; height:176px;"></button>
 <br>
 <button onclick="AroundUsPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music6.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
+
+<br>
+<br>
 
 <div class="block">
 <button onclick="ForYou()"; style="background:transparent url(Sarkilar/ForYou/icon.png) no-repeat left top; width:176px; height:176px;"></button>
 <br>
 <button onclick="ForYouPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music7.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
 
 </body>
