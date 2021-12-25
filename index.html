@@ -22,6 +22,7 @@ var music5 = new Audio('Sarkilar/BrawlStyle/BrawlStyle.mp3');
 var music6 = new Audio('Sarkilar/ImpostersAroundUs/AroundUs.mp3');
 var music7 = new Audio('Sarkilar/ForYou/ForYou.mp3');
 var music8 = new Audio('Sarkilar/RiseUpToTheTop/RiseUp.mp3');
+var music9 = new Audio('Sarkilar/Legendary/Legendary.mp3');
 
 function WeWontCooperate(){
   music.play();
@@ -32,6 +33,7 @@ function WeWontCooperate(){
   music6.pause();
   music7.pause();
   music8.pause();
+  music9.pause();
   }
 
 function WeWontCooperatePause(){
@@ -48,6 +50,7 @@ function HuggyWuggy(){
   music6.pause();
   music7.pause();
   music8.pause();
+  music9.pause();
   }
 
 function HuggyWuggyPause(){
@@ -63,6 +66,7 @@ function LazRap(){
   music6.pause();
   music7.pause();
   music8.pause();
+  music9.pause();
   }
 
 function LazRapPause(){
@@ -93,6 +97,7 @@ function BrawlStyle(){
   music6.pause();
   music7.pause();
   music8.pause();
+  music9.pause();
   }
 
 function BrawlStylePause(){
@@ -122,6 +127,7 @@ function ForYou(){
   music6.pause();
   music2.pause();
   music8.pause();
+  music9.pause();
   music7.play();
   }
 
@@ -137,11 +143,28 @@ function RiseUp(){
   music6.pause();
   music2.pause();
   music7.pause();
+  music9.pause();
   music8.play();
   }
 
 function RiseUpPause(){
   music8.pause();
+  }
+
+function Legendary(){
+  music.pause();
+  music3.pause();
+  music4.pause();
+  music5.pause();
+  music6.pause();
+  music2.pause();
+  music7.pause();
+  music8.pause();
+  music9.play();
+  }
+
+function LegendaryPause(){
+  music9.pause();
   }
 </script>
 
@@ -214,6 +237,17 @@ function RiseUpPause(){
 <br>
 <button onclick="music8.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
+
+<div class="block">
+<button onclick="Legendary()"; style="background:transparent url(Sarkilar/Legendary/icon.png) no-repeat left top; width:176px; height:176px;"></button>
+<br>
+<button onclick="LegendaryPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music9.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
+</div>
+
+<br>
+<br>
 
 </body>
 </html>
