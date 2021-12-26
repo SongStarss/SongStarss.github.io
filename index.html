@@ -24,6 +24,7 @@ var music7 = new Audio('Sarkilar/ForYou/ForYou.mp3');
 var music8 = new Audio('Sarkilar/RiseUpToTheTop/RiseUp.mp3');
 var music9 = new Audio('Sarkilar/Legendary/Legendary.mp3');
 var music10 = new Audio('Sarkilar/Poppy/Poppy.mp3');
+var music11 = new Audio('Sarkilar/Starpower/Starpower.mp3');
 
 function WeWontCooperate(){
   music.play();
@@ -36,6 +37,7 @@ function WeWontCooperate(){
   music8.pause();
   music9.pause();
   music10.pause();
+  music11.pause();
   }
 
 function WeWontCooperatePause(){
@@ -54,6 +56,7 @@ function HuggyWuggy(){
   music8.pause();
   music9.pause();
   music10.pause();
+  music11.pause();
   }
 
 function HuggyWuggyPause(){
@@ -71,6 +74,7 @@ function LazRap(){
   music8.pause();
   music9.pause();
   music10.pause();
+  music11.pause();
   }
 
 function LazRapPause(){
@@ -88,6 +92,7 @@ function Champions(){
   music8.pause();
   music9.pause();
   music10.pause();
+  music11.pause();
   }
 
 function ChampionsPause(){
@@ -105,6 +110,7 @@ function BrawlStyle(){
   music8.pause();
   music9.pause();
   music10.pause();
+  music11.pause();
   }
 
 function BrawlStylePause(){
@@ -122,6 +128,7 @@ function AroundUs(){
   music8.pause();
   music9.pause();
   music10.pause();
+  music11.pause();
   }
 
 function AroundUsPause(){
@@ -138,6 +145,7 @@ function ForYou(){
   music8.pause();
   music9.pause();
   music10.pause();
+  music11.pause();
   music7.play();
   }
 
@@ -155,6 +163,7 @@ function RiseUp(){
   music7.pause();
   music9.pause();
   music10.pause();
+  music11.pause();
   music8.play();
   }
 
@@ -172,6 +181,7 @@ function Legendary(){
   music7.pause();
   music8.pause();
   music10.pause();
+  music11.pause();
   music9.play();
   }
 
@@ -189,11 +199,30 @@ function Poppy(){
   music7.pause();
   music8.pause();
   music9.pause();
+  music11.pause();
   music10.play();
   }
 
 function PoppyPause(){
   music10.pause();
+  }
+
+function Starpower(){
+  music.pause();
+  music3.pause();
+  music4.pause();
+  music5.pause();
+  music6.pause();
+  music2.pause();
+  music7.pause();
+  music8.pause();
+  music9.pause();
+  music10.pause();
+  music11.play();
+  }
+
+function StarpowerPause(){
+  music11.pause();
   }
 </script>
 
@@ -284,6 +313,14 @@ function PoppyPause(){
 <button onclick="PoppyPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
 <br>
 <button onclick="music10.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
+</div>
+
+<div class="block">
+<button onclick="Starpower()"; style="background:transparent url(Sarkilar/Starpower/icon.png) no-repeat left top; width:176px; height:176px;"></button>
+<br>
+<button onclick="StarpowerPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music11.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
 
 </body>
