@@ -11,3 +11,19 @@ font-weight:bold;
 color: white;
 font-family: sans-serif;
 }
+
+@media screen and (min-width: 1366px) {
+body {
+background-color: #0F0F0F
+}
+
+.block {
+display: inline-flex;
+}
+
+.p {
+font-weight:bold;
+color: white;
+font-family: sans-serif;
+}
+}
