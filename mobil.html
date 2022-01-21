@@ -31,6 +31,7 @@ var music12 = new Audio('Sarkilar/MortisGame/MortisGame.mp3');
 var music13 = new Audio('Sarkilar/DontGiveUp/DontGiveUp.mp3');
 var music14 = new Audio('Sarkilar/Oynariz/Oynariz.mp3');
 var music15 = new Audio('Sarkilar/Together/Together.mp3');
+var music16 = new Audio('Sarkilar/HealingLies/HealingLies.mp3');
 
 function WeWontCooperate(){
   music.play();
@@ -48,6 +49,7 @@ function WeWontCooperate(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   }
 
 function WeWontCooperatePause(){
@@ -71,6 +73,7 @@ function HuggyWuggy(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   }
 
 function HuggyWuggyPause(){
@@ -93,6 +96,7 @@ function LazRap(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   }
 
 function LazRapPause(){
@@ -115,6 +119,7 @@ function Champions(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   }
 
 function ChampionsPause(){
@@ -137,6 +142,7 @@ function BrawlStyle(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   }
 
 function BrawlStylePause(){
@@ -159,6 +165,7 @@ function AroundUs(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   }
 
 function AroundUsPause(){
@@ -180,6 +187,7 @@ function ForYou(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   music7.play();
   }
 
@@ -202,6 +210,7 @@ function RiseUp(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   music8.play();
   }
 
@@ -224,6 +233,7 @@ function Legendary(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   music9.play();
   }
 
@@ -246,6 +256,7 @@ function Poppy(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   music10.play();
   }
 
@@ -268,6 +279,7 @@ function Starpower(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   music11.play();
   }
 
@@ -290,6 +302,7 @@ function MortisGame(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   music12.play();
   }
 
@@ -312,6 +325,7 @@ function DontGiveUp(){
   music12.pause();
   music14.pause();
   music15.pause();
+  music16.pause();
   music13.play();
   }
 
@@ -334,6 +348,7 @@ function Oynariz(){
   music12.pause();
   music13.pause();
   music15.pause();
+  music16.pause();
   music14.play();
   }
 
@@ -356,11 +371,35 @@ function Together(){
   music12.pause();
   music13.pause();
   music14.pause();
+  music16.pause();
   music15.play();
   }
 
 function TogetherPause(){
   music15.pause();
+  }
+
+function Healing(){
+  music.pause();
+  music3.pause();
+  music4.pause();
+  music5.pause();
+  music6.pause();
+  music2.pause();
+  music7.pause();
+  music8.pause();
+  music9.pause();
+  music10.pause();
+  music11.pause();
+  music12.pause();
+  music13.pause();
+  music14.pause();
+  music15.pause();
+  music16.play();
+  }
+
+function HealingPause(){
+  music16.pause();
   }
 </script>
 
@@ -504,6 +543,14 @@ function TogetherPause(){
 <button onclick="TogetherPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
 <br>
 <button onclick="music15.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
+</div>
+
+<div class="block">
+<button onclick="Healing()"; style="background:transparent url(Sarkilar/HealingLies/icon.png) no-repeat left top; width:176px; height:176px;"></button>
+<br>
+<button onclick="HealingPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music16.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
 
 </body>
