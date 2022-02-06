@@ -32,6 +32,7 @@ var music13 = new Audio('Sarkilar/DontGiveUp/DontGiveUp.mp3');
 var music14 = new Audio('Sarkilar/Oynariz/Oynariz.mp3');
 var music15 = new Audio('Sarkilar/Together/Together.mp3');
 var music16 = new Audio('Sarkilar/HealingLies/HealingLies.mp3');
+var music17 = new Audio('Sarkilar/Oleceksin/Oleceksin.wav');
 
 function WeWontCooperate(){
   music.play();
@@ -50,6 +51,7 @@ function WeWontCooperate(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   }
 
 function WeWontCooperatePause(){
@@ -74,6 +76,7 @@ function HuggyWuggy(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   }
 
 function HuggyWuggyPause(){
@@ -97,6 +100,7 @@ function LazRap(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   }
 
 function LazRapPause(){
@@ -120,6 +124,7 @@ function Champions(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   }
 
 function ChampionsPause(){
@@ -143,6 +148,7 @@ function BrawlStyle(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   }
 
 function BrawlStylePause(){
@@ -166,6 +172,7 @@ function AroundUs(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   }
 
 function AroundUsPause(){
@@ -188,6 +195,7 @@ function ForYou(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   music7.play();
   }
 
@@ -211,6 +219,7 @@ function RiseUp(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   music8.play();
   }
 
@@ -234,6 +243,7 @@ function Legendary(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   music9.play();
   }
 
@@ -257,6 +267,7 @@ function Poppy(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   music10.play();
   }
 
@@ -280,6 +291,7 @@ function Starpower(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   music11.play();
   }
 
@@ -303,6 +315,7 @@ function MortisGame(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   music12.play();
   }
 
@@ -326,6 +339,7 @@ function DontGiveUp(){
   music14.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   music13.play();
   }
 
@@ -349,6 +363,7 @@ function Oynariz(){
   music13.pause();
   music15.pause();
   music16.pause();
+  music17.pause();
   music14.play();
   }
 
@@ -372,6 +387,7 @@ function Together(){
   music13.pause();
   music14.pause();
   music16.pause();
+  music17.pause();
   music15.play();
   }
 
@@ -395,11 +411,36 @@ function Healing(){
   music13.pause();
   music14.pause();
   music15.pause();
+  music17.pause();
   music16.play();
   }
 
 function HealingPause(){
   music16.pause();
+  }
+
+function Oleceksin(){
+  music.pause();
+  music3.pause();
+  music4.pause();
+  music5.pause();
+  music6.pause();
+  music2.pause();
+  music7.pause();
+  music8.pause();
+  music9.pause();
+  music10.pause();
+  music11.pause();
+  music12.pause();
+  music13.pause();
+  music14.pause();
+  music15.pause();
+  music16.pause();
+  music17.play();
+  }
+
+function OleceksinPause(){
+  music17.pause();
   }
 </script>
 
@@ -551,6 +592,17 @@ function HealingPause(){
 <button onclick="HealingPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
 <br>
 <button onclick="music16.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
+</div>
+
+<br>
+<br>
+
+<div class="block">
+<button onclick="Oleceksin()"; style="background:transparent url(Sarkilar/Oleceksin/icon.png) no-repeat left top; width:176px; height:176px;"></button>
+<br>
+<button onclick="OleceksinPause()"; style="background:transparent url(Sarkilar/pause.png) no-repeat left top; width:100px; height:100px;"></button>
+<br>
+<button onclick="music17.loop=true;"; style="background:transparent url(Sarkilar/yinele.png) no-repeat left top; width:100px; height:100px;"></button>
 </div>
 
 </body>
